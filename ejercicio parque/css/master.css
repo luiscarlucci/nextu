@@ -1,0 +1,50 @@
+body {
+	margin-left: 200px;
+	font-family: Arial;
+	width: 70%;
+	color: #605B56;
+
+}
+#contenido {
+	text-align: justify;
+	padding: 15px;
+	background-color: #F9F7F3;
+	background-image: url("https://www.gstatic.com/webp/gallery3/1.png");
+}
+#menu-principal {
+float: left;
+width: 200px;
+padding: 0;
+margin: 0;
+}
+
+#menu-principal li {
+	list-style-type: none;
+}
+
+#contenido img {
+	float: right;
+	border: 6px solid #605B56;
+	margin: 6px;
+	border-radius: 4px;
+
+}
+header{
+	padding: 3px 10px;
+	margin-bottom: 5px;
+	background: linear-gradient(to right, #5CA861 , #BADFBC);
+	background: -webkit-linear-gradient(left, #5CA861 , #BADFBC);
+	background: -o-linear-gradient(right, #5CA861 , #BADFBC);
+	background: -moz-linear-gradient(right, #5CA861 , #BADFBC);
+	border-radius: 10px;
+}
+header h1{
+	padding-left: 18px;
+}
+
+footer {
+	border-top: solid 3px #605B56;
+	padding-top: 15px;
+	margin-top: 20px;
+	text-align: center;
+}

@@ -1,0 +1,29 @@
+@font-face {
+font-family: lato-regular.tff;
+src: url(master/Lato-Regular.tff);
+}
+body{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Lora;
+  font-size: 16px;
+}
+  #menu-principal{
+    padding: 10px 0px;
+    font-family: Lato-Regular;
+    font-style: italic;
+}
+.resaltado{
+	background-color: yellow;
+	color: black;
+}
+h1
+{
+  background-color: aliceblue;
+  text-align: center;
+  padding: 15px;
+  font-family: Lato-Regular;
+  font-variant: small-caps;
+}

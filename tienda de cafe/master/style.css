@@ -1,0 +1,27 @@
+body{
+  font-style: italic;
+  font-family: sans-serif;
+}
+.adaptativa-porcentaje{
+  width: 90%;
+}
+.adaptativa-porcentaje-1{
+  width: 70%;
+}
+@media (max-width: 600px) {
+  #resume {
+    display: block;
+  }
+  body{
+  color: red;
+  font-size: 16px;
+  }
+}
+@media (min-width: 601px) and (max-width: 900px){
+  body{
+    color: blue;
+    font-size: 14px
+  }
+}
+#resume {
+  display: none;
