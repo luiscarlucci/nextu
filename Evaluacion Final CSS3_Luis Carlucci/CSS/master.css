@@ -3,6 +3,14 @@ header{
   background-color: ;
 }
 h1 {
-font-family: Dancing Script ;
+  font-family: Dancing Script ;
 }
-footer
+footer{
+
+}
+.columns {
+
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+}
