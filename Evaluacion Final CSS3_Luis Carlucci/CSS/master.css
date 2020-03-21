@@ -1,3 +1,7 @@
+/*@-ms-viewport{
+  width: device-width;
+}*/
+
 @font-face{
   font-family: Dancing Script;
   src: url("https://fonts.googleapis.com/css?family=Dancing+Script&display=swap");
@@ -9,7 +13,6 @@ body{
 #menu-principal{
 float: right !important;
 text-decoration: none !important;
-
 }
 
 header{
@@ -32,61 +35,92 @@ h1{
   margin-bottom: 0em;
 }
 /* IDEA: css imagenes */
-#img1{
-  background-color: #82c3a6;
-  width: 100%;
-  text-align: center;
-}
-#img2{
-  background-color: #d5c75f;
-  width: 50%;
-}
-#img3{
-  background-color: #d5c75f;
-  width: 50%;
-}
 
-#contenido{
-  width: 100%;
-  display: flex;
-  display: -webkit-flex;
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-  text-align: center;
-flex
-
-}
 img{
   -webkit-filter:drop-shadow(2px 2px #02010a);
   filter: drop-shadow(2px 2px #02010a);
-
+  width: 350px;
 }
 /* IDEA: footer css */
 footer{
   font-family: Dancing Script ;
   background-color: #C6d5c5;
   border-radius: 0px 0px 10px 10px;
-
 }
-.column{
+#img2 img:hover{
+  transform: rotate(10deg);
+}
+#img3 img:hover{
+  transform: translate(20px, -5px);
+  }
+
+.contenido{
   display: flex;
   display: -webkit-flex;
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
 }
-.column1{
-  width: 25%;
-  order: 1;
+@media screen and (max-width: 480px) {
+  .cuerpo_1{
+  justify-content: center;
+  }
+  img{
+    width: 250px;
+    display: flex;
+    flex-flow: column;
+  }
+  #img1{
+    width: 100%;
+    background-color: #82c3a6;
+    order:1;
+  }
+  #img2{
+    width: 100%;
+    background-color: #d5c75f;
+    order:2;
+      }
+  #img3{
+    width: 100%;
+    background-color: #d5c75f;
+    order:3
+    }
+  .column1{
+    width: 100%;
+    order: 4;
+  }
+  .column2{
+    width: 100%;
+    order: 5;
+  }
+  .column3{
+    width: 100%;
+    order: 6;
+  }
+  .column4{
+    width: 100%;
+    order: 7;
+  }
 }
-.column2{
-  width: 25%;
-  order: 2;
-}
-.column3{
-  width: 25%;
-  order: 3;
-}
-.column4{
-  width: 25%;
-  order: 4;
-}
+@media screen and (min-width: 481px) {
+  .cuerpo_1{
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+  #img1{
+    background-color: #82c3a6;
+    width: 100%;
+    text-align: center;
+  }
+  #img2{
+    background-color: #d5c75f;
+    width: 50%;
+    text-align: center;
+  }
+  #img3{
+    background-color: #d5c75f;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+  }
