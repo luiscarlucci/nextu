@@ -30,26 +30,12 @@ h1{
   margin-top: 0em;
   margin-bottom: 0em;
 }
-/* IDEA: css imagenes */
-
-img{
-  -webkit-filter:drop-shadow(2px 2px #02010a);
-  filter: drop-shadow(2px 2px #02010a);
-  width: 350px;
-}
 /* IDEA: footer css */
 footer{
   font-family: Dancing Script ;
   background-color: #C6d5c5;
   border-radius: 0px 0px 10px 10px;
 }
-#img2 img:hover{
-  transform: rotate(10deg);
-}
-#img3 img:hover{
-  transform: translate(20px, -5px);
-  }
-
 .contenido{
   display: flex;
   display: -webkit-flex;
@@ -57,9 +43,6 @@ footer{
   flex-flow: row wrap;
 }
 @media screen and (max-width: 480px) {
-  .cuerpo_1{
-  justify-content: center;
-  }
   .contenido{
     justify-content: center;
   }
@@ -110,20 +93,4 @@ footer{
   }
   .contenido{
     justify-content: center;
-  }
-  #img1{
-    background-color: #82c3a6;
-    width: 100%;
-    text-align: center;
-  }
-  #img2{
-    background-color: #d5c75f;
-    width: 50%;
-    text-align: center;
-  }
-  #img3{
-    background-color: #d5c75f;
-    width: 50%;
-    justify-content: center;
-    text-align: center;
   }
